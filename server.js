@@ -46,7 +46,7 @@ const transporter = nodemailer.createTransport({
 const sendVerificationEmail = (email, token) => {
   const url = `https://backend-e154.onrender.com/verify-email?token=${token}`;
   const mailOptions = {
-    from: 'SecGei Music',
+    from: 'SoundTiFy Music',
     to: email,
     subject: 'Email Verification',
     html: `<p>Please click this link to verify your email: <a href="${url}">${url}</a></p>`
@@ -218,7 +218,7 @@ app.post('/forgot-password', (req, res) => {
 
       const resetUrl = `https://backend-e154.onrender.com/reset-password?token=${resetToken}`;
       const mailOptions = {
-        from: 'SecGei Music',
+        from: 'SoundTiFy Music',
         to: email,
         subject: 'Password Reset',
         html: `<p>Please click this link to reset your password: <a href="${resetUrl}">${resetUrl}</a></p>`
