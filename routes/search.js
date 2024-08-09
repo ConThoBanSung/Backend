@@ -14,7 +14,7 @@ router.get('/', async (req, res) => {
         part: 'snippet',
         q: query,
         type: 'video',
-        key: 'AIzaSyCpCI-JdiOkvCBucP3DDj0adB3voqT7oRI'
+        key: 'AIzaSyAnGyAlc4EJSmG5XeTarwzeBsXDFX4f92o'
       }
     });
     res.json(response.data);
