@@ -1,6 +1,6 @@
 /**
  * @swagger
- * /{videoId}:
+ * /audio/{videoId}:
  *   get:
  *     summary: Lấy luồng âm thanh từ video YouTube
  *     parameters:
